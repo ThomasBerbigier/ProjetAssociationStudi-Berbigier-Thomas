@@ -5,6 +5,22 @@
 .dropdown-item:hover{
     background-color : rgba(0,0,0,0);
 }
-h2{
+h2, h3{
     font-family: Impact, fantasy;
+}
+h1, h3{
+    color: orangered;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    color:orangered;
+}
+.btn-event{
+    background-color: orangered;
+}
+.btn-event:hover{
+    background-color: orangered;
+}
+h1, .event-title{
+    text-align: center;
 }

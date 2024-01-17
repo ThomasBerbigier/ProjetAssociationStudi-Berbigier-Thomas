@@ -22,23 +22,20 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a href="#" aria-current="page" class="nav-link active pe-3 fw-semibold fs-5">Accueil</a>
+                            <a href="#" aria-current="page" class="nav-link active pe-5 fw-semibold fs-3">Accueil</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a href="#adopter" class="nav-link dropdown-toggle pe-3 fw-semibold fs-5" role="button" data-bs-toggle="dropdown" aria-expanded="false">Adopter</a>
+                            <a href="#adopter" class="nav-link dropdown-toggle pe-5 fw-semibold fs-3" role="button" data-bs-toggle="dropdown" aria-expanded="false">Adopter</a>
                             <ul class="dropdown-menu fs-5">
                                 <li><a class="dropdown-item fw-bold" href="#chien">Adopter un chien</a></li>
                                 <li><a class="dropdown-item fw-bold" href="#chat">Adopter un chat</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item pe-3 fw-semibold fs-5">
+                        <li class="nav-item pe-5 fw-semibold fs-3">
                             <a href="#evenements" class="nav-link">Nos évènements</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#vie" class="nav-link pe-3 fw-semibold fs-5">La vie de l'association</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contact" class="nav-link pe-3 fw-semibold fs-5">Contactez-nous</a>
+                            <a href="#contact" class="nav-link pe-5 fw-semibold fs-3">Contactez-nous</a>
                         </li>
                     </ul>
                 </div>
@@ -125,11 +122,36 @@
                     </div>
                     <div class="col-5">
                         <button type="button" class="btn btn-event text-light btn-lg" data-bs-target="#evenements.html" onclick="window.location.href='evenements.html'">Notre calendrier d'évènements</button>
+                        <img src="assets/icons8-calendrier.gif" alt="icone d'une calendrier">
                     </div>
                 </div>
             </div>
         </section>
     </main>
+    <footer id="contact" style="background-color: #FEE3D0;">
+        <div class="container mt-5">
+            <h4 class="text-center fw-semibold fs-2">Contactez-nous</h4>
+            <p class="text-center mt-5">Contactez-nous en remplissant le formulaire ci-dessous, nous vous re-contacterons ensuite</p>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Votre nom (obligatoire)" required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Prénom</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Votre prénom (obligatoire)" required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Votre adresse email (obligatoire)" required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Votre message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Votre message (facultatif)"></textarea>
+            </div>
+            <button type="button" class="btn text-light btn-lg btn-event">Envoyer</button>                                         
+        </div>
+
+    </footer>
     <script src="assets/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -6,8 +6,83 @@
     <title>Comme chien et chat! Refuge animalier</title>
     <meta name="description" content="Nous sommes une association de protection animale sur Avignon spécialisée pour les chiens et chats, venez découvrir nos petits protégés">
     <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top">
+            <div class="container">
+                <a href="#" class="navbar-brand fw-semibold fs-5">
+                    <img src="assets/1517090.svg" alt="dessin d'un chien et d'un chat" width="50" height="50">
+                    Comme chien & chat !
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a href="#" aria-current="page" class="nav-link active pe-3 fw-semibold fs-5">Accueil</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#adopter" class="nav-link dropdown-toggle pe-3 fw-semibold fs-5" role="button" data-bs-toggle="dropdown" aria-expanded="false">Adopter</a>
+                            <ul class="dropdown-menu fs-5">
+                                <li><a class="dropdown-item fw-semibold" href="chien">Adopter un chien</a></li>
+                                <li><a class="dropdown-item fw-semibold" href="chat">Adopter un chat</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item pe-3 fw-semibold fs-5">
+                            <a href="#evenements" class="nav-link">Nos évènements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#vie" class="nav-link pe-3 fw-semibold fs-5">La vie de l'association</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link pe-3 fw-semibold fs-5">Contactez-nous</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselAssociation" class="carousel slide carousel-fade" data-bs-theme="dark">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselAssociation" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselAssociation" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselAssociation" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="assets/joli-chat-orange-jouant-herbe.jpg" class="d-block w-100 h-100" alt="Photo d'un chat roux et blanc jouant dans l'herbe">
+                <div class="carousel-caption d-none d-md-block bg-light bg-opacity-25 fs-3 fw-semibold">
+                    <h2>ADOPTEZ UN CHAT!</h2>
+                    <p>Il vous attend avec impatience...</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="assets/capture-verticale-chien-border-collie-dans-foret-automne.jpg" class="d-block w-100 h-100" alt="Photo d'un chien border collie dans la foret">
+                <div class="carousel-caption d-none d-md-block bg-light bg-opacity-25 fs-3 fw-semibold">
+                    <h2>OU BIEN UN CHIEN!</h2>
+                    <p>C'est urgent, il a besoin de vous...</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="assets/gros-plan-du-museau-chien-mignon-chat-assis-joue-contre-joue.jpg" class="d-block w-100" alt="Photo d'un chat blanc et noir joue contre joue avec un chien labrador">
+                <div class="carousel-caption d-none d-md-block bg-light bg-opacity-25 fs-3 fw-semibold">
+                    <h2>ET POURQUOI PAS LES DEUX?</h2>
+                    <p>Ils sont remplis d'espoir!</p>
+                </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselAssociation" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselAssociation" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+    </header>
     <script src="assets/bootstrap.bundle.min.js"></script>
 </body>
 </html>
